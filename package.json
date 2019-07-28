@@ -2,7 +2,7 @@
     "name": "@jms-1/isxs-sockets",
     "version": "1.0.5",
     "description": "iSxS web socket library",
-    "main": "index.js",
+    "main": "main.js",
     "repository": "git@github.com:JMS-1/isxs-sockets.git",
     "author": "Dr. Jochen Manns <vcrnet-1@psimarron.net>",
     "license": "MIT",
