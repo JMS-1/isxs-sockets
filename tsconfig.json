@@ -1,0 +1,18 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "inlineSources": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "strictPropertyInitialization": false,
+        "target": "es2017"
+    },
+    "exclude": ["node_modules", "index.d.ts"],
+    "include": ["index.ts", "src/**/*.ts", "test/**/*.ts"]
+}

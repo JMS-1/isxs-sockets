@@ -1,0 +1,22 @@
+{
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "eslint.enable": true,
+    "eslint.validate": ["javascript", "typescript"],
+    "files.exclude": {
+        "**/*.js": true,
+        "**/*.js.map": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true
+    },
+    "grunt.autoDetect": "off",
+    "jake.autoDetect": "off",
+    "less.validate": false,
+    "prettier.eslintIntegration": true,
+    "typescript.tsdk": "node_modules/typescript/lib"
+}

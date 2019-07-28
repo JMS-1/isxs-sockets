@@ -1,0 +1,112 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2019,
+        "sourceType": "module",
+        "warnOnUnsupportedTypeScriptVersion": true
+    },
+    "plugins": ["react", "import", "@typescript-eslint", "prettier", "sort-keys-fix"],
+    "rules": {
+        "@typescript-eslint/class-name-casing": ["error"],
+        "@typescript-eslint/interface-name-prefix": ["error", "always"],
+        "@typescript-eslint/type-annotation-spacing": "error",
+        "arrow-body-style": ["error", "as-needed"],
+        "camelcase": "error",
+        "curly": "error",
+        "dot-notation": "error",
+        "eol-last": ["error", "always"],
+        "eqeqeq": [
+            "error",
+            "always",
+            {
+                "null": "ignore"
+            }
+        ],
+        "for-direction": "error",
+        "guard-for-in": "error",
+        "import/first": "error",
+        "import/newline-after-import": [
+            "error",
+            {
+                "count": 1
+            }
+        ],
+        "import/no-default-export": "error",
+        "import/no-duplicates": "error",
+        "import/no-unassigned-import": [
+            "error",
+            {
+                "allow": ["**/*.scss"]
+            }
+        ],
+        "new-parens": "error",
+        "no-await-in-loop": "error",
+        "no-bitwise": "warn",
+        "no-caller": "error",
+        "no-console": "warn",
+        "no-debugger": "error",
+        "no-duplicate-case": "error",
+        "no-empty": [
+            "error",
+            {
+                "allowEmptyCatch": true
+            }
+        ],
+        "no-eval": "error",
+        "no-new-wrappers": "error",
+        "no-redeclare": "error",
+        "no-restricted-properties": [
+            "error",
+            {
+                "property": "isNull"
+            },
+            {
+                "property": "isDefinded"
+            }
+        ],
+        "no-shadow": "error",
+        "no-shadow-restricted-names": "error",
+        "no-trailing-spaces": "error",
+        "no-unused-expressions": [
+            "error",
+            {
+                "allowShortCircuit": true,
+                "allowTernary": true
+            }
+        ],
+        "no-unused-labels": "error",
+        "no-var": "error",
+        "object-shorthand": [
+            "error",
+            "always",
+            {
+                "avoidExplicitReturnArrows": true
+            }
+        ],
+        "prefer-object-spread": "error",
+        "prettier/prettier": "error",
+        "radix": ["error", "as-needed"],
+        "react/jsx-sort-props": [
+            "warn",
+            {
+                "callbacksLast": true,
+                "reservedFirst": true,
+                "shorthandFirst": true
+            }
+        ],
+        "react/self-closing-comp": "error",
+        "sort-keys-fix/sort-keys-fix": "error"
+    }
+}
