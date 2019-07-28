@@ -32,7 +32,7 @@
         "typescript": "3.5.3"
     },
     "dependencies": {
-        "@jms-1/isxs-tools": "^1.0.10",
+        "@jms-1/isxs-tools": "^1.0.11",
         "debug": "4.1.1",
         "redux": "4.0.4",
         "uuid": "3.3.2",

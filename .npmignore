@@ -7,8 +7,3 @@ tsconfig.json
 
 node_modules
 yarn.lock
-
-src/**/*.ts
-src/**/*.js.map
-test/**/*.ts
-test/**/*.js.map
