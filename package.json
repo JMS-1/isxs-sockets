@@ -33,7 +33,7 @@
         "typescript": "3.5.3"
     },
     "dependencies": {
-        "@jms-1/isxs-tools": "1.0.8",
+        "@jms-1/isxs-tools": "^1.0.8",
         "debug": "4.1.1",
         "uuid": "3.3.2",
         "websocket": "1.0.29"
