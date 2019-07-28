@@ -37,10 +37,10 @@
     normalize-path "^2.0.1"
     through2 "^2.0.3"
 
-"@jms-1/isxs-tools@^1.0.8":
-  version "1.0.8"
-  resolved "http://jochen3:4873/@jms-1%2fisxs-tools/-/isxs-tools-1.0.8.tgz#730b747e9fa4a9e2bbc1593b646e3fc733dae760"
-  integrity sha512-km43T56QSmhuGIaYU8+yvX15Y5CC+Nql137uLfKEq4Jl6J/qDfIS6bP+yyEdTgXslbXuNelMfmY2a0SwXyaeJw==
+"@jms-1/isxs-tools@^1.0.10":
+  version "1.0.10"
+  resolved "http://jochen3:4873/@jms-1%2fisxs-tools/-/isxs-tools-1.0.10.tgz#9581cafa04d4ae99ef6ce19951918da222c4aabd"
+  integrity sha512-q4z2dmLQGs/MGP9vUZZd8yWAWYUiHM2TecjcTC1nRsmU23ZAx9h6+trQHbgwF/VrAsudmlJvykbYNVjdxIroyA==
 
 "@nodelib/fs.scandir@2.1.1":
   version "2.1.1"
