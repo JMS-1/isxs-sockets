@@ -37,7 +37,7 @@
     normalize-path "^2.0.1"
     through2 "^2.0.3"
 
-"@jms-1/isxs-tools@1.0.8":
+"@jms-1/isxs-tools@^1.0.8":
   version "1.0.8"
   resolved "http://jochen3:4873/@jms-1%2fisxs-tools/-/isxs-tools-1.0.8.tgz#730b747e9fa4a9e2bbc1593b646e3fc733dae760"
   integrity sha512-km43T56QSmhuGIaYU8+yvX15Y5CC+Nql137uLfKEq4Jl6J/qDfIS6bP+yyEdTgXslbXuNelMfmY2a0SwXyaeJw==
