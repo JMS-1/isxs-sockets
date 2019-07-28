@@ -6,6 +6,7 @@ publish
 tsconfig.json        
 
 node_modules
+yarn.lock
 
 main.ts
 main.js.map
