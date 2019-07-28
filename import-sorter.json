@@ -1,5 +1,6 @@
 {
     "generalConfiguration": {
+        "exclude": ["\\.d\\.ts"],
         "sortOnBeforeSave": true
     },
     "importStringConfiguration": {

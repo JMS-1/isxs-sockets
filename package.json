@@ -11,7 +11,10 @@
         "watch": "tsc --watch"
     },
     "devDependencies": {
+        "@types/debug": "4.1.4",
         "@types/node": "10.11.7",
+        "@types/uuid": "3.4.5",
+        "@types/websocket": "0.0.40",
         "@typescript-eslint/eslint-plugin": "1.13.0",
         "@typescript-eslint/parser": "1.13.0",
         "del": "5.0.0",
@@ -26,6 +29,13 @@
         "gulp-sourcemaps": "2.6.5",
         "gulp-typescript": "5.0.1",
         "prettier": "1.18.2",
+        "redux": "4.0.4",
         "typescript": "3.5.3"
+    },
+    "dependencies": {
+        "@jms-1/isxs-tools": "1.0.7",
+        "debug": "4.1.1",
+        "uuid": "3.3.2",
+        "websocket": "1.0.29"
     }
 }
