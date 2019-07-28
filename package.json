@@ -29,12 +29,12 @@
         "gulp-sourcemaps": "2.6.5",
         "gulp-typescript": "5.0.1",
         "prettier": "1.18.2",
-        "redux": "4.0.4",
         "typescript": "3.5.3"
     },
     "dependencies": {
         "@jms-1/isxs-tools": "^1.0.8",
         "debug": "4.1.1",
+        "redux": "4.0.4",
         "uuid": "3.3.2",
         "websocket": "1.0.29"
     }
