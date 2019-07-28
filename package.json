@@ -1,15 +1,13 @@
 {
-    "name": "@jms-1/isxs-sockets",
-    "version": "1.0.9",
-    "description": "iSxS web socket library",
-    "main": "src/sockets.js",
-    "repository": "git@github.com:JMS-1/isxs-sockets.git",
     "author": "Dr. Jochen Manns <vcrnet-1@psimarron.net>",
-    "license": "MIT",
-    "scripts": {
-        "build": "tsc",
-        "watch": "tsc --watch"
+    "dependencies": {
+        "@jms-1/isxs-tools": "^1.0.14",
+        "debug": "4.1.1",
+        "redux": "4.0.4",
+        "uuid": "3.3.2",
+        "websocket": "1.0.29"
     },
+    "description": "iSxS web socket library",
     "devDependencies": {
         "@types/debug": "4.1.4",
         "@types/node": "10.11.7",
@@ -31,11 +29,14 @@
         "prettier": "1.18.2",
         "typescript": "3.5.3"
     },
-    "dependencies": {
-        "@jms-1/isxs-tools": "^1.0.13",
-        "debug": "4.1.1",
-        "redux": "4.0.4",
-        "uuid": "3.3.2",
-        "websocket": "1.0.29"
-    }
+    "license": "MIT",
+    "main": "src/sockets.js",
+    "name": "@jms-1/isxs-sockets",
+    "repository": "git@github.com:JMS-1/isxs-sockets.git",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch"
+    },
+    "typings": "./index.d.ts",
+    "version": "1.0.9"
 }
