@@ -1,6 +1,6 @@
 {
     "name": "@jms-1/isxs-sockets",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "iSxS web socket library",
     "main": "main.js",
     "repository": "git@github.com:JMS-1/isxs-sockets.git",
