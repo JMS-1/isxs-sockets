@@ -1,12 +1,13 @@
 import * as debug from 'debug'
 import { Action } from 'redux'
 
-import * as sockets from '../index'
+import * as isxsSockets from '@jms-1/isxs-sockets'
+
 import { WebSocketClient } from './webSocketCaller'
 
 const trace = debug('sessions:trace')
 
-type IOptionalOrder = Partial<sockets.IOrderedResponse & sockets.IRequestResponseIndication>
+type IOptionalOrder = Partial<isxsSockets.IOrderedResponse & isxsSockets.IRequestResponseIndication>
 
 interface IActionInfo {
     callback: (action: Action) => void
@@ -22,7 +23,7 @@ export abstract class WebSocketConnector {
 
     protected constructor(
         endPoint: string,
-        private readonly _sessionManager: sockets.ISessionManager,
+        private readonly _sessionManager: isxsSockets.ISessionManager,
         bearerFactory: () => Promise<string>,
         onStateChange?: (connected: boolean) => void
     ) {
@@ -38,7 +39,7 @@ export abstract class WebSocketConnector {
     }
 
     broadcast = <TIndicationType extends Action>(
-        factory: TIndicationType | ((session: sockets.IClientSession) => TIndicationType)
+        factory: TIndicationType | ((session: isxsSockets.IClientSession) => TIndicationType)
     ) => {
         for (let session of this._sessionManager.filter()) {
             try {
@@ -129,9 +130,9 @@ export abstract class WebSocketConnector {
 }
 
 export function createWebSocketConnector<TImplementation extends WebSocketConnector>(
-    factory: sockets.IWebSocketConnectorFactory<TImplementation>,
+    factory: isxsSockets.IWebSocketConnectorFactory<TImplementation>,
     endPoint: string,
-    sessionManager: sockets.ISessionManager,
+    sessionManager: isxsSockets.ISessionManager,
     bearerFactory: () => Promise<string>
 ): TImplementation {
     const connector = new factory(endPoint, sessionManager, bearerFactory)

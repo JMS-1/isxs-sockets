@@ -1,3 +1,7 @@
 node_modules
 
-lib
+yarn-error.log
+yarn.lock
+
+/server
+/test

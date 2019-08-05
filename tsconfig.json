@@ -8,12 +8,12 @@
         "noEmitOnError": true,
         "noImplicitAny": true,
         "noUnusedLocals": true,
-        "outDir": "lib",
+        "outDir": ".",
         "removeComments": true,
         "sourceMap": true,
         "strictPropertyInitialization": false,
         "target": "es2017"
     },
     "exclude": ["node_modules"],
-    "include": ["index.d.ts", "src/**/*.ts"]
+    "include": ["*.d.ts", "src/**/*.ts"]
 }

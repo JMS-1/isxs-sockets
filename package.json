@@ -1,7 +1,7 @@
 {
     "author": "Dr. Jochen Manns <vcrnet-1@psimarron.net>",
     "dependencies": {
-        "@jms-1/isxs-tools": "^1.0.17",
+        "@jms-1/isxs-tools": "^1.0.18",
         "debug": "4.1.1",
         "redux": "4.0.4",
         "uuid": "3.3.2",
@@ -30,7 +30,7 @@
         "typescript": "3.5.3"
     },
     "license": "MIT",
-    "main": "lib/index.js",
+    "main": "common/index.js",
     "name": "@jms-1/isxs-sockets",
     "repository": "git@github.com:JMS-1/isxs-sockets.git",
     "scripts": {

@@ -3,9 +3,8 @@ import { Action } from 'redux'
 import { v4 as uuid } from 'uuid'
 import { client, connection } from 'websocket'
 
+import { IRequestResponseIndication, ISetSessionUser, socketActions } from '@jms-1/isxs-sockets'
 import { getMessage } from '@jms-1/isxs-tools'
-
-import { IRequestResponseIndication, ISetSessionUser, socketActions } from '../index'
 
 const toolError = debug('webTools')
 const toolTrace = debug('webTools:trace')
